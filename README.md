@@ -5,7 +5,7 @@ This project is a simple sentiment analysis tool built in Java using the Weka li
 
 
 
-How This Works
+How This Works:-
 
 1. Training the Model:
 
@@ -28,7 +28,7 @@ The model predicts the sentiment (Positive, Negative, or Neutral).
 
 
 
-Project Structure
+Project Structure:-
 
 Sentiment-Analysis-Project
 |-- Data/
@@ -47,7 +47,7 @@ Sentiment-Analysis-Project
 
 
 
-How to Run
+How to Run:-
 
 1. Set up your environment:
 
@@ -72,20 +72,20 @@ Use SentimentPredictor.java to input text and get a sentiment prediction.
 
 
 
-Example Output
+Example Output:-
 
 String text = "I love this product!";
 String sentiment = SentimentPredictor.predict(text);
 System.out.println("Predicted Sentiment: " + sentiment);
 
-Output:
+Output:-
 
 Predicted Sentiment: Positive
 
 
 
 
-Libraries Used
+Libraries Used:-
 
 Java (JDK 17)
 
@@ -93,7 +93,7 @@ Weka 3.8.6
 
 
 
-Future Improvements
+Future Improvements:-
 
 Add more sentiment categories (like Angry, Sad, Excited).
 
